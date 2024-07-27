@@ -1,0 +1,26 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+.imageTextContainer {
+  display: flex;
+  gap: 1rem;
+}
+.image {
+  height: 17vh;
+  width: 12vw;
+  border-radius: 10px;
+}
+.deleteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.deleteIcon {
+  font-size: 20px;
+}
